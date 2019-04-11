@@ -120,5 +120,11 @@ navigation.prepend(homeAnchor);
 navigation.append(directionsAnchor);
 
 
+// Stretch: update H1 color at the click of a button
+const makeH1Red = function() {
+  let ctaH1 = document.querySelector('.cta h1');
+  ctaH1.classList.toggle('red');
+}
 
-
+const getStarted = document.querySelector('.cta button');
+getStarted.addEventListener('click', makeH1Red);

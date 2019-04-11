@@ -131,6 +131,10 @@ header .logo {
     color: white;
 }
 
+.cta-text h1.red {
+  color: red;
+}
+
 /* Main Content Styles */
 
 .main-content {
@@ -296,4 +300,5 @@ footer {
     .contact {
         margin: 20px;
     }
+
 }
