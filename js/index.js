@@ -102,3 +102,6 @@ contactPs[2].textContent = siteContent['contact']['email'];
 const copy = document.querySelector('footer p');
 copy.textContent = siteContent.footer.copyright;
 
+
+// Change navigation text to be green
+navAnchors.forEach(anchor => anchor.style.color = 'green');
