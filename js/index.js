@@ -105,3 +105,17 @@ copy.textContent = siteContent.footer.copyright;
 
 // Change navigation text to be green
 navAnchors.forEach(anchor => anchor.style.color = 'green');
+
+const navigation = document.querySelector('nav');
+
+const homeAnchor = document.createElement('a');
+homeAnchor.textContent = 'Home';
+homeAnchor.style.color = 'green';
+
+const directionsAnchor = document.createElement('a');
+directionsAnchor.textContent = 'Directions';
+directionsAnchor.style.color = 'green';
+
+navigation.prepend(homeAnchor);
+navigation.append(directionsAnchor);
+
