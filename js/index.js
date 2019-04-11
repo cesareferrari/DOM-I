@@ -77,7 +77,6 @@ middleImg.src = siteContent['main-content']['middle-img-src'];
 
 
 // Bottom content
-
 const bottomContentH4s = document.querySelectorAll('.bottom-content h4');
 bottomContentH4s[0].textContent = siteContent['main-content']['services-h4'];
 bottomContentH4s[1].textContent = siteContent['main-content']['product-h4'];
@@ -87,3 +86,14 @@ const bottomContentPs = document.querySelectorAll('.bottom-content p');
 bottomContentPs[0].textContent = siteContent['main-content']['services-content'];
 bottomContentPs[1].textContent = siteContent['main-content']['product-content'];
 bottomContentPs[2].textContent = siteContent['main-content']['vision-content'];
+
+
+// Contact
+const contactH4 = document.querySelector('.contact h4');
+contactH4.textContent = siteContent['contact']['contact-h4'];
+
+const contactPs = document.querySelectorAll('.contact p');
+contactPs[0].textContent = siteContent['contact']['address'];
+contactPs[1].textContent = siteContent['contact']['phone'];
+contactPs[2].textContent = siteContent['contact']['email'];
+
