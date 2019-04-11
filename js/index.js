@@ -97,3 +97,8 @@ contactPs[0].textContent = siteContent['contact']['address'];
 contactPs[1].textContent = siteContent['contact']['phone'];
 contactPs[2].textContent = siteContent['contact']['email'];
 
+
+// Copyright
+const copy = document.querySelector('footer p');
+copy.textContent = siteContent.footer.copyright;
+
