@@ -1,5 +1,4 @@
-const siteContent = {
-  "nav": {
+const siteContent = { "nav": {
     "nav-item-1": "Services",
     "nav-item-2": "Product",
     "nav-item-3": "Vision",
@@ -75,3 +74,16 @@ topContentPs[1].textContent = siteContent['main-content']['about-content'];
 
 const middleImg = document.getElementById('middle-img');
 middleImg.src = siteContent['main-content']['middle-img-src'];
+
+
+// Bottom content
+
+const bottomContentH4s = document.querySelectorAll('.bottom-content h4');
+bottomContentH4s[0].textContent = siteContent['main-content']['services-h4'];
+bottomContentH4s[1].textContent = siteContent['main-content']['product-h4'];
+bottomContentH4s[2].textContent = siteContent['main-content']['vision-h4'];
+
+const bottomContentPs = document.querySelectorAll('.bottom-content p');
+bottomContentPs[0].textContent = siteContent['main-content']['services-content'];
+bottomContentPs[1].textContent = siteContent['main-content']['product-content'];
+bottomContentPs[2].textContent = siteContent['main-content']['vision-content'];
